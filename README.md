@@ -1,2 +1,2 @@
-# erinmuir-website
+# erinrmuir.github.io
  A personal website
