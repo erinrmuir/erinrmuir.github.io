@@ -39,16 +39,20 @@ drift.load('k3a4m93zfirw');
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
+		<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+		<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+		<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+    <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+    </head>
 	<body>
-
+		<script type="text/javascript" src="FAQaccordian.js"></script>
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
 <!--					<a href="index.html" class="logo">erin muir&nbsp;</a>-->
 					<a href="index.html" class="logo"><img src="images/erin_neonlogo500.gif" alt="erin muir" href="index.html" style="float:left;width:auto;height:2.5em;padding:0px 20px 0px 0px;"/></a>
 					<nav id="nav">
-						<a href="images/ErinMuir_Resume_6.24.pdf" target="_blank">Resume</a>
+						<a href="images/ErinMuir_Resume_9.22.pdf" target="_blank">Resume</a>
 						<a href="#three">Skills</a>
 						<a href="#four">Portfolio</a>
 						<a href="#one">Contact</a>
@@ -64,7 +68,7 @@ drift.load('k3a4m93zfirw');
 						<img src="images/favicon-pink.png" alt="" style="float:left;width:285px;height:240px;padding:0px 45px 0px 0px;"/>
 					</div>
 					<h1> <span>Hi. i'm erin. </span></h1>
-					<p style="color:#ffffff;font-weight: bolder;font-size:1.5em;">I get excited about designing product experiences that turn ordinary users into raving fans.</p>
+					<p style="color:#ffffff;font-weight: bolder;font-size:1.5em;">I get excited about building product experiences that turn ordinary users into raving fans.</p>
 			  </div>
 			</section>
 		
@@ -80,7 +84,7 @@ drift.load('k3a4m93zfirw');
 								<h3>product management</h3>
 							</header>
 						
-					      <p>I successfully transitioned our organization from Salesforce to a new agile CRM platform by managing the following:<br>
+					      <p>I led the build of and transition to an agile CRM software from Salesforce by managing the following:<br>
 						      •  conducting focus sessions with internal teams to assess CRM platform needs<br> 
 							  •  structuring timeline, requirements and goals for custom build and team transition<br>
 						      •  leading regular meetings with engineers to track goals, provide updates and consult on UX <br>
@@ -96,7 +100,7 @@ drift.load('k3a4m93zfirw');
 							<header>
 								<h3>data-driven strategy</h3>
 							</header>
-							<p>From lead generation to campaign optimization to product development, I drive growth by letting the data speak. Some of the ways I've collected data and used it to influence strategy:<br>
+							<p>From lead generation to user experience, I drive growth by letting the data speak. Ways I've used data to influence strategy:<br>
 							• designing an interactive, web-based tool to generate leads and collect data on potential client interests, influencing product direction and go-to-market strategy<br>
 							• building dashboards to track and test digital campaigns and adapting content strategy resulting in over 200% organic growth on multiple social media platforms <br> 
 							• conducting A/B testing to determine design choices for digital marketing assets<br>
@@ -234,17 +238,37 @@ drift.load('k3a4m93zfirw');
 				  </ul>
 				</div>
 			</section>
-		<!-- Place <div> tag where you want the feed to appear -->
-<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
-<!-- The Javascript can be moved to the end of the html page before the </body> tag -->
-<script type="text/javascript">
-/* curator-feed-default-feed-layout */
-(function(){
-var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
-i.src = "https://cdn.curator.io/published/6080ac3e-3c47-401d-8701-d5122d73832f.js";
-e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
-})();
-</script>
+<!-- One -->
+			<section id="six">
+				<div class="inner">
+					<div class="content" style="float:left;align-content: center;"><a href="https://www.linkedin.com/in/erinrmuir" target="_blank"><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="https://cdn.lightwidget.com/widgets/381a185e05ec5ec49c63a0c8a1e4f66f.html" scrolling="no" allowtransparency="true"  style="width:35em;border:0;overflow:hidden;" ></iframe></a>
+					</div>
+					<header>
+						<h2>Contact</h2>
+					</header>
+					<p style="color:#f0624a;">erinrmuir@gmail.com | <a href="https://www.linkedin.com/in/erinrmuir/" target="_blank">LinkedIn</a></p>
+					
+					<p style="padding:0 25px 0 0;">I am currently exploring new opportunities in product management(UX/CX) and product marketing. If you're looking to connect, shoot me an email and let's jump on a call—who knows, maybe we can build something great together!I am currently exploring new opportunities in product management(UX/CX) and product marketing. If you're looking to connect, shoot me an email and let's jump on a call—who knows, maybe we can build something great together!</p>
+					<ul class="actions">
+					  <li><a href="mailto:erinrmuir@gmail.com" class="button alt">Email me</a></li>
+				  </ul>
+				</div>
+                </div>
+			</section>
+					<button class="accordion">Section 1</button>
+					<div class="panel">
+					  <p>Lorem ipsum...</p>
+					</div>
+
+					<button class="accordion">Section 2</button>
+					<div class="panel">
+					  <p>Lorem ipsum...</p>
+					</div>
+
+					<button class="accordion">Section 3</button>
+					<div class="panel">
+					  <p>Lorem ipsum...</p>
+					</div>
 <!--
 		 Five 
 			<section id="five">
@@ -327,6 +351,10 @@ e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+    <script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+            </script>
 	</body>
 </html>
